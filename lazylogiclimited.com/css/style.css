@@ -116,6 +116,10 @@ section {
   background-color: #ffffff;
 }
 
+.section2{
+  padding: 0px;
+}
+
 .section1{
   padding-bottom: 0px;
 }
@@ -14756,7 +14760,7 @@ div.icon-box:before {
 }
 
 .icon-box {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   position: relative;
 }
 .icon-box .icon {
