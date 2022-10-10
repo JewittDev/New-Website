@@ -32,7 +32,7 @@ body .container-wide {
   padding: 0 60px;
 }
 
-.banner-image{
+.banner-image {
   width: 100%;
 }
 
@@ -116,11 +116,11 @@ section {
   background-color: #ffffff;
 }
 
-.section2{
+.section2 {
   padding: 0px;
 }
 
-.section1{
+.section1 {
   padding-bottom: 0px;
 }
 
@@ -1300,12 +1300,27 @@ Topbar
   height: 80px;
   width: auto;
 }
-#header .header-inner #logo a > img,
+/* #header .header-inner #logo a > img,
 #header .header-inner #logo a [class*="logo-"],
 #header #header-wrap #logo a > img,
 #header #header-wrap #logo a [class*="logo-"] {
   display: none;
+} */
+
+.backo {
+  background-color: #000;
+  opacity: 0.8;
 }
+
+.flexy{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexy img{
+  width: 20%;
+}
+
 #header .header-inner #logo a .logo-default,
 #header #header-wrap #logo a .logo-default {
   display: block;
@@ -4724,6 +4739,28 @@ h6 small,
   font-weight: 100;
 }
 
+.imagine img{
+  width: 50%;
+}
+
+.imagine{
+  display: flex;
+  justify-content: center;
+}
+
+.image-cup{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.image-cup img{
+  /* width: 20%; */
+
+}
+
 h1,
 .h1 {
   font-size: 3.14285714em;
@@ -4813,6 +4850,7 @@ h6:not(:last-child),
   }
 
   .lead {
+    /* width: 50%; */
     font-size: 1.35714286em;
     line-height: 1.68421053em;
   }
@@ -7766,7 +7804,6 @@ Helpers
 .text-xs span {
   font-size: 30px;
   line-height: 30px;
-
 }
 
 .text-medium-light {
@@ -15105,7 +15142,7 @@ div.icon-box:before {
   text-align: left;
   transition: background 0.4s ease 0s;
   /* cursor: pointer; */
-  background:#fff;
+  background: #fff;
 }
 .text-box i {
   font-size: 42px;
